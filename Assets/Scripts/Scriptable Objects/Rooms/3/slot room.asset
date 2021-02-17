@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8339ce3bf908e6c47a1526560e8fd3cd, type: 3}
+  m_Name: slot room
+  m_EditorClassIdentifier: 
+  roomDescription: This room is almost in ruins. You see broken stone slabs covered
+    in moss everywhere, except for the center of the room, where there is a small
+    circular hole. Maybe you could fit something in there.
+  roomName: slot room
+  exits:
+  - keyString: south
+    exitDescription: You can go back south through the narrow passageway.
+    valueRoom: {fileID: 11400000, guid: 3459690ed9a7a794daa21caa1a9fa358, type: 2}
+  interactableObjectsInRoom: []

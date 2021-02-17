@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8339ce3bf908e6c47a1526560e8fd3cd, type: 3}
+  m_Name: desk room
+  m_EditorClassIdentifier: 
+  roomDescription: You enter a room filled with chains and metal chairs, as well as
+    a single desk in the middle. It is reminiscent of a weird office.
+  roomName: desk room
+  exits:
+  - keyString: west
+    exitDescription: You see a dark corridor to the west.
+    valueRoom: {fileID: 11400000, guid: 1ea728058cbe37f4fbae84c99a4708e7, type: 2}
+  - keyString: east
+    exitDescription: You can go back to the middle room to the east.
+    valueRoom: {fileID: 11400000, guid: 3459690ed9a7a794daa21caa1a9fa358, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 0bee00e455b4b4945bb80a606a7bc355, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98787d1539565544b9d68871718af0b9, type: 3}
+  m_Name: Desk
+  m_EditorClassIdentifier: 
+  objectNoun: desk
+  objectDescription: 
+  interactions:
+  - inputAction: {fileID: 11400000, guid: ff67a3d6eb55ca047b3b50eafc32b960, type: 2}
+    textResponse: 'The desk is all black, made of tough metal.
+
+      It has one locked drawer with a slot to place a key in.
+
+      Maybe you should look for one.'
+    actionResponse: {fileID: 0}

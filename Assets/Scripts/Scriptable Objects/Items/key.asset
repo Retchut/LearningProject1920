@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98787d1539565544b9d68871718af0b9, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  objectNoun: key
+  objectDescription: Inside the corpse's mouth, you can see something shining. It
+    appears to be a key.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: ff67a3d6eb55ca047b3b50eafc32b960, type: 2}
+    textResponse: The key is severely corroded. Its decoration is quite exuberant,
+      however, as evidenced by its carefully carved shape.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 2439080c9f3619b419eb7331ae9d2b03, type: 2}
+    textResponse: 'After mustering the courage to do it, you take the key right out
+      of the corpse''s mouth, breaking its jaw in the process.
+
+      "Well", you think, "it''s not like he was going to need it anyways."'
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 7ccdeef85ad4a554fb85cb31ae4a757e, type: 2}
+    textResponse: You unlocked the desk.
+    actionResponse: {fileID: 11400000, guid: 925b7837f30caed4e8461ba11bc3a4f3, type: 2}
